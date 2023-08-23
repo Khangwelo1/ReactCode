@@ -1,0 +1,54 @@
+body{ background-color: blue;
+
+}
+.App{
+height: 500px;
+width: 500px;
+background-color: blueviolet;
+align-items: center;
+}
+.App .App_Container{
+    background-color: aqua;
+    height: 500px;
+}
+.App .App_Container .Text{
+    background-color: aqua;
+    font-size: 50px;
+}
+.Head{
+height: 50px;
+width: 100%;
+/* background-color: blueviolet; */
+display: flex;
+}
+.Main_Section{
+height: 400px;
+width: 100%;
+background-color: red;
+display: flex;
+text-align: center;
+justify-content: center;
+padding: 5px;
+}
+.F{
+height: 400px;
+width: 100%;
+background-color: green;
+text-align: center;
+justify-content: center;
+padding: 5px;
+}
+.Main_Section .F .w-full_mb-5{
+height: 50px;
+width: 100%;
+background-color: blueviolet;
+display: flex;
+padding: 30px;
+}
+.List{
+max-height: 150px;
+width: 400px;
+background-color: blue;
+display: flex;
+flex-wrap: wrap;
+}
